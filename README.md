@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhairavi collection</title>
+    <link rel="stylesheet" href="main.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+    </style>
+     <style>
+         
+    body{
+        margin: 0px;
+        padding: 0px;
+    }
+    header {
+
+        display: flex;
+        background-color: #FFE0F6;
+        height: 130px;
+    }
+
+    .navbar {
+
+        display: flex;
+        list-style: none;
+        margin-left: 55vw;
+        align-items: center;
+
+
+    }
+
+    .navigation-bar {
+        display: flex;
+        align-items: center;
+    }
+
+    #logo {
+        padding-left: 30px;
+        margin: 10px 1px;
+    }
+
+    .item {
+        padding: 20px;
+        font-family: Arial, Helvetica, sans-serif
+    }
+
+    .item:hover {
+        cursor: pointer;
+        background-color: #ffc8f0;
+    }
+
+    #bgimage {
+        width: 100%;
+        height: 20%;
+    }
+
+    .bgImage {
+
+        background-image: url("https://static.wixstatic.com/media/a7d02964d79340a1b2c426d93eb3c4e6.jpeg");
+        background-color: #beffbe;
+        width: 100%;
+        height: 548px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        line-height: 64px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: relative;
+        z-index: -1;
+    }
+
+    .text-1 {
+        text-align: center;
+        font-family: 'Langar', cursive;
+        width: 450px;
+        font-size: 44px;
+        color: white;
+
+    }
+
+    .text-2 {
+        color: white;
+        text-align: center;
+        font-size: 19px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    button {
+        padding: 6px 20px;
+        background-color: black;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        border: none;
+    }
+
+    .div {
+        background-color: rgb(255, 225, 159);
+        width: 100%;
+        height: 350px;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around
+    }
+
+    .clothes {
+        margin-top: 20px;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-size: 34px;
+    }
+
+    .div-1 {
+        width: 20%;
+    }
+
+    .div-2 {
+        width: 20%;
+    }
+
+    .div-3 {
+        width: 20%;
+    }
+
+    .div-1-1 {
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+
+    .div-2-1 {
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+
+    .div-3-1 {
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+
+    .div-1-2 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        margin: 10px 80px;
+    }
+
+    .div-1-2:hover {
+        cursor: pointer;
+    }
+
+    .div-1-1:hover {
+        cursor: pointer;
+    }
+
+    .div-2-1:hover {
+        cursor: pointer;
+    }
+
+    .div-3-1:hover {
+        cursor: pointer;
+    }
+
+    .div-1:hover {
+        background-color: rgb(255, 212, 119);
+    }
+
+    .div-2:hover {
+        background-color: rgb(255, 212, 119);
+    }
+
+    .div-3:hover {
+        background-color: rgb(255, 212, 119);
+    }
+
+    #start {
+        font-size: 27px;
+        font-weight: 900;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+
+    }
+
+    #home {
+        margin-top: 13px;
+        width: 720px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 23px;
+        line-height: 1.56;
+        text-align: center;
+    }
+
+    .about {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 42px;
+    }
+
+    #last {
+        background-color: black;
+        color: white;
+        width: 100%;
+        height: 250px;
+        margin-top: 42px;
+        padding-bottom: 35px;
+        display: flex;
+
+    }
+
+    .last-left {
+        display: flex;
+       
+        flex-direction: column;
+        line-height: 40px;
+    }
+
+    .last-mid {
+        display: flex;
+        
+        flex-direction: column;
+        line-height: 40px;
+    }
+
+    .img-div {
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+
+    }
+
+    .logos {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 55px;
+        
+    }
+    .logo-images{
+        width: 10px;
+        height: 10px;
+    }
+    .last-all{
+        margin-top: 66px;
+        margin-left: 280px;
+    }
+   #Newsletter{
+       line-height: 40px;
+   }
+   input{
+       height: 30px;
+       width: 250px;
+       background-color: black;
+       color: white;
+       border: 4px solid white;
+       padding-left: 20px;
+   }
+   #done{
+       background-color: white;
+       color: black;
+       height: 40px;
+       width: 80px;
+       margin-left: 20px;
+   }
+   #done:hover{
+       cursor: pointer;
+       background-color: rgb(202, 202, 202);
+   }
+     </style>
+</head>
+
+<body style=" background-color: #FFE0F6; ">
+    <header class="header">
+        <img id="logo" src="img.jpg" alt="bhairavi Collection logo">
+        <nav class="navigation-bar">
+            <ul class="navbar">
+                <li class="item">Home</li>
+                <li class="item">Shop</li>
+                <li class="item">About</li>
+                <li class="item">Contact</li>
+                <li class="item"><img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAOCAYAAAD5YeaVAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAC6ADAAQAAAABAAAADgAAAABqlvdMAAAAaElEQVQoFWNmQAVMQK4nEPsBsRAQ3wXi/0AMBowwBpDmA+IdQPwPiE8AsQUQMwOxGxB/BmIUMAXIm4oiwsAwDcgHiWOAK0ARBTRRRSD/BkwM5Ay4m2CC+GhiFf8H+Z5oMKoYOahIihQA1rsO2AG3Zv8AAAAASUVORK5CYII="
+                        alt="basket logo"></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <section>
+        <div class="bgImage">
+            <div class="text-1">
+                Experience Bhairavi Collection
+            </div>
+            <div class="text-2">
+                Wholesale and retail providers
+            </div>
+            <button href="#">Shop Now</button>
+        </div>
+        <div class="clothes">
+            Featured Items
+        </div>
+
+
+        <div class="div">
+            <div class="div-1">
+                <div class="div-1-1">
+                    <img src="https://img.mensxp.com/media/shop/catalog/products/B/701059/bottle-green-solid-t-shirt-198298-4.jpg?w=637&h=848&cc=1&q=95"
+                        alt="Mens clothes" width="250px" height="250px">
+                </div>
+                <div class="div-1-2">
+                    <span> Men Wear</span>
+                </div>
+            </div>
+            <div class="div-2">
+                <div class="div-2-1">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPmeIWTtoOSKUnaGdhV7cD_bcG5sd07w-JHQ&usqp=CAU"
+                        alt="Children clothes" width="250px" height="250px">
+                </div>
+                <div class="div-1-2">
+                    <span> Kids Wear</span>
+                </div>
+            </div>
+            <div class="div-3">
+                <div class="div-3-1">
+                    <img src="data:image/jpeg;base64,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"
+                        alt="Women clothes" width="250px" height="250px">
+                </div>
+                <div class="div-1-2">
+                    <span> Ladies Wear</span>
+                </div>
+            </div>
+        </div>
+        <div class="about">
+            <div id="start">About
+            </div>
+            <p id="home">
+                As a known industry leader, we’re used to working with all types of customers - local or global, large
+                or small. Exceptional quality is the foundation of our company, and is the driving force behind all
+                decisions; whether it’s which materials to purchase or the best way to serve our customers. We work in a
+                highly competitive field, so we’re constantly investing in technology and research to make sure we stay
+                ahead of the curve. Our commitment to quality guarantees our success and your satisfaction
+            </p>
+        </div>
+        <footer id="last">
+            <div class="last-left last-all">
+                <span>
+                    FAQ
+                </span>
+                <span>
+                    Shipping & Returns
+                </span>
+                <span>
+                    Store Policy
+                </span>
+                <span>
+                    Payments
+                </span>
+
+            </div>
+            <div class="last-mid last-all">
+                <span>Bhairavi collection</span>
+                <span>Tel 123-456-7890</span>
+                <span>Email bhairavi@gmail.com</span>
+                <div class="logos">
+                    <div class="logos-1"><img class="logo-images" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAJCAYAAAD6reaeAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAABaADAAQAAAABAAAACQAAAACZktPKAAAAVklEQVQIHWNgAIL////zAPEWIP4OxA9BYiDBPCAGgV1AXAwT7AEL/f9vBBJgBHK2AGktIFYE4sNAfI4JSBgCsSgQg4AGEPODWUDVMO36IAGQSgxAvCAAcbQ4kx3mVFEAAAAASUVORK5CYII=" alt="fb logo">
+                    </div>
+                    <div class="logos-1"><img  class="logo-images" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAYAAADgkQYQAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAACaADAAQAAAABAAAACQAAAAAMirubAAAAoElEQVQYGYWQLRLCQAxGN1Rg4ACYVlZhOASCa9QCV2AwnKDXKBKBZND0DNyhtrO8r5MoRDPzNl9+NpldyzlvUkotVFBA2Ij4wjHRdId9VMKT20ED3YJkaWZPgiXc4CVPvoYeKjXFigt6gIP7LZc/U51b6tZaTVi5Xit23WtS2Btx9sYTWvFkatIrZFfQpId7xbJRazr4e52qyqtuHLP/9ANTRl0FiAWExgAAAABJRU5ErkJggg==" alt="insta logo"></div>
+                    <div class="logos-1"> <img class="logo-images" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAICAYAAADA+m62AAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAACqADAAQAAAABAAAACAAAAABicMmvAAAAj0lEQVQYGWP4//+/BxDfB+JPQPwbiGHgD5DxBYgfA3EkA5A4B8SEwAUmBgYGVSCGgVtARh0Qf4YJQGlBkInI4BJIAiigAMRPkSSegUz8DtUFohiBknFA+ggQS4EEoOAPSPdNJJ24mNdAJk4B4n8wrTjo5YwgCaAx/EBKBIg5gZgViEHiv4H4GxB/YGRkfAsAfV+prWcpPHwAAAAASUVORK5CYII=" alt="youtube logo"></div>
+                </div>
+            </div>
+            <div class="last-right last-all">
+                <span id = "Newsletter">
+                    Subscribe to my Newsletter
+                </span>
+                <input type="email" placeholder="Enter your Email Here*">
+                <button id = "done">
+                    Join
+                </button>
+            </div>
+        </footer>
+</body>
+
+</html>
