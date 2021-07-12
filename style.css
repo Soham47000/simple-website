@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+body{
+    margin: 0px;
+    padding: 0px;
+}
+header {
+
+    display: flex;
+    background-color: #FFE0F6;
+    height: 130px;
+}
+
+.navbar {
+
+    display: flex;
+    list-style: none;
+    margin-left: 55vw;
+    align-items: center;
+
+}
+
+.navigation-bar {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+
+#logo {
+    padding-left: 30px;
+    margin: 10px 1px;
+}
+
+.item {
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.item:hover {
+    cursor: pointer;
+    background-color: #ffc8f0;
+}
+
+#bgimage {
+    width: 100%;
+    height: 20%;
+}
+
+.bgImage {
+
+    background-image: url("https://static.wixstatic.com/media/a7d02964d79340a1b2c426d93eb3c4e6.jpeg");
+    background-color: #beffbe;
+    width: 100%;
+    height: 548px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    line-height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    z-index: -1;
+}
+
+.text-1 {
+    text-align: center;
+    font-family: 'Langar', cursive;
+    width: 450px;
+    font-size: 44px;
+    color: white;
+
+}
+
+.text-2 {
+    color: white;
+    text-align: center;
+    font-size: 19px;
+    font-family: 'Roboto', sans-serif;
+}
+
+button {
+    padding: 6px 20px;
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+}
+
+.div {
+    background-color: rgb(255, 225, 159);
+    width: 100%;
+    height: 350px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around
+}
+
+.clothes {
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 34px;
+}
+
+.div-1 {
+    width: 20%;
+}
+
+.div-2 {
+    width: 20%;
+}
+
+.div-3 {
+    width: 20%;
+}
+
+.div-1-1 {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.div-2-1 {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.div-3-1 {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.div-1-2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin: 10px 80px;
+}
+
+.div-1-2:hover {
+    cursor: pointer;
+}
+
+.div-1-1:hover {
+    cursor: pointer;
+}
+
+.div-2-1:hover {
+    cursor: pointer;
+}
+
+.div-3-1:hover {
+    cursor: pointer;
+}
+
+.div-1:hover {
+    background-color: rgb(255, 212, 119);
+}
+
+.div-2:hover {
+    background-color: rgb(255, 212, 119);
+}
+
+.div-3:hover {
+    background-color: rgb(255, 212, 119);
+}
+
+#start {
+    font-size: 27px;
+    font-weight: 900;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+#home {
+    margin-top: 13px;
+    width: 720px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 23px;
+    line-height: 1.56;
+    text-align: center;
+}
+
+.about {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 42px;
+}
+
+#last {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 250px;
+    margin-top: 42px;
+    padding-bottom: 35px;
+    display: flex;
+
+}
+
+.last-left {
+    display: flex;
+   
+    flex-direction: column;
+    line-height: 40px;
+}
+
+.last-mid {
+    display: flex;
+    
+    flex-direction: column;
+    line-height: 40px;
+}
+
+.img-div {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+
+}
+
+.logos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 55px;
+    
+}
+.logo-images{
+    width: 10px;
+    height: 10px;
+}
+.last-all{
+    margin-top: 66px;
+    margin-left: 280px;
+}
+#Newsletter{ line-height: 40px; } input{ height: 30px; width: 250px; background-color: black; color: white; border: 4px solid white; padding-left: 20px; } #done{ background-color: white; color: black; height: 40px; width: 80px; margin-left: 20px; } #done:hover{ cursor: pointer; background-color: rgb(202, 202, 202); }
